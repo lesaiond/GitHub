@@ -1,0 +1,262 @@
+html{
+    background: #000; 
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: Poppins; 
+}
+
+button{
+    color: #fff;
+    border: none;
+}
+
+.header h1{
+    display: inline;
+    text-align: left;
+    position: relative;
+    top: -30px;
+}
+.header{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 770px;
+}
+
+.header span .link{
+    display: inline-flex;
+    gap: 88px;
+    margin-right: 36px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header span .button{
+    border: none;
+    border-radius: 6px;
+    background: #FA9021;
+    color: #fff;
+    padding: 10px 28px;
+}
+
+.content1{
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    gap: 98px;
+}
+
+.gnd .text h3{
+    color: #E87D0E; 
+}
+
+.gnd .text h1{
+    font-size: 50px;
+    width: 500px;
+}
+
+.gnd .text p{
+    width: 500px;
+}
+
+.gnd button{
+    width: 195px;
+    height: 53px; 
+    border: none;
+    border-radius: 40px;
+    background: linear-gradient(92deg, #FA8305 2.08%, #FB9E3C 117.25%);
+    margin-top: 50px;
+}
+
+.pic img:first-child{
+    position: relative;
+    /* top: -270px; */
+    right: -190px;
+}
+
+.trendGames{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+}
+.trendGames .text , .trendGames .ractangles {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    /* border: 1px solid red; */
+
+}
+
+/* .trendGames .gnd{ */
+    
+    .trendGames button{
+    position: relative;
+    top: 10px;
+    width: 139px;
+    height: 57px; 
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.11);
+    
+}
+
+.content2{
+    margin: 10% 16%;
+}
+.content2 h1{
+    text-align: center;
+    width: 800px;
+    display: block;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.content2 p h2{
+    display: flex;
+    margin-top: 32px;
+}
+
+.content2 p{
+    width: 550px;
+    font-weight: 300;
+}
+
+.content2Img img:first-child {
+    position: relative;
+    top: 90px;
+    left: 850px;
+}
+
+.content3{
+    /* backgroud-image: url("img/Ractangle5.png"); */
+    margin-left: 330px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 8%;
+}
+.content3 .text{
+    margin-left: 50px;
+}
+.content3 .text h1{
+    width: 850px;
+    margin-bottom: 25px;
+}
+
+.content3 .text p{
+    width: 900px;
+    margin-bottom: 90px;
+}
+
+.content3 .text h1 , .content3 .text p{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.icon{
+    /* display: flex; */
+    gap: 62px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    width: 1000px;
+}
+.iconBorder{
+    border:none;
+    background: #fff;
+    border-radius: 50%;
+    width: 30px;
+    padding: 15px;
+    height: 30px;
+}
+
+.arrow, .iconBorder{
+    display: block;
+    margin: auto;
+}
+
+.content4 .img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1600px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.content4 .text{
+    display: block;
+    margin: 0; 
+    text-align: center;
+}
+
+.content4 button{
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.11);
+    border: none;
+    width: 139px;
+    height: 57px; 
+    display: block;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.content5{
+    margin-bottom: 120px;
+}
+
+.content5Text{
+    margin-left: 12%;
+    width: 550px;
+    margin-bottom: 60px;
+    /* border: 1px solid red; */
+}
+
+.content5 .block{
+    margin: 0 12%;
+    background: #2c1a1a;
+    border-radius: 15px;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: row;
+}
+
+.content5 .blockText{
+    margin-bottom: 30px;
+    margin-left: 34px;
+
+}
+
+.blockText p{
+    width: 500px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    gap: 140px;
+}
+
+.footer .textLogo{
+    width: 350px;
+}
+
+.contact{
+    width: 28   0px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.finish p{
+    border-top: 1px solid #bfbfbf;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}

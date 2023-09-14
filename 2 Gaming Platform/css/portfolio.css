@@ -1,0 +1,275 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: linear-gradient(180deg, #010101 -15.71%, #1A0E01 99.57%);    font-family: Poppins; 
+    /* display: flexbox;
+    justify-content: center; */
+    font-family: Poppins;
+}
+
+.header h1{
+    display: inline;
+    text-align: left;
+    position: relative;
+    top: -30px;
+}
+.header{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 770px;
+}
+
+.header span .link{
+    display: inline-flex;
+    gap: 88px;
+    margin-right: 36px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header span .button{
+    border: none;
+    border-radius: 6px;
+    background: #FA9021;
+    color: #fff;
+    padding: 10px 28px;
+}
+.content1{
+    /* background: #1C140F; */
+    padding: 113px 203px 0px 0px;
+    gap: 150px;
+    margin: 8% 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content1Text{
+    width: 550px;
+}
+.content1Text h1{
+    margin-bottom: 50px;
+}
+
+.content1 button{
+    padding: 13px 45px;
+    background: #DC7000;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+.content1 img{
+    width: 495px;
+    height: 485px;
+    margin-right: -150px;
+}
+
+.content2{
+    text-align: center;
+}
+
+.content2Text p{
+    display: inline;
+}
+.content2Text .orange{
+    color: #E47500; 
+}
+
+.content2block{
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-top: 45px;
+    border-radius: 10px;
+    background: #1C140F;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+.vLine{
+    /* border: 1px solid red; */
+    border-left: 2px solid #fff;
+    padding: 0;
+    position: relative;
+    top: 20px;
+}
+
+.block21Text{
+    margin: 0;
+    padding: 0;
+}
+
+.content3{
+    margin: 8% 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+.content3Text{
+    width: 500px;
+}
+
+.content3Text ul{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    list-style-image: url(bx_bxs-check-circle.svg);
+    /* justify-content: center; */
+}
+
+.content4{
+    background: #1C140F;
+    padding-top: 80px;
+}
+
+.content4Text{
+    width: 500px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.content4Text p{
+    width: 550px;
+    padding-bottom: 70px ;
+}
+.person{
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    background: #0F0901;
+    padding: 30px;
+}
+
+.content4Person .person:first-child{
+    border: 2px solid #DC7000;
+}
+.personAva , .personAva2 {
+    display: flex;
+}
+
+.personAva{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content4Person{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.personAva .text {
+    margin-left: 20px;
+    width: 600px;
+}
+.personAva .text p:last-child{
+    color:gray;
+}
+.personAva .text p:first-child{
+    font-weight: 600;
+}
+
+.content4Swipe{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    gap: 1000px;
+    padding-bottom: 80px;
+}
+.content4Swipe .left{
+    gap: 20px;
+    flex-direction: row;
+    display: flex;
+}
+
+
+.content4Swipe .left span{
+    width: 10px;
+    height: 10px;
+    border: none;
+    padding: 3px ;
+    border-radius: 50%;
+    background: #fff;
+}
+.content4Swipe .left span:first-child{
+    background: #DC7000;
+    width: 40px;
+    height: 10px;
+    border-radius: 50px;
+}
+
+.content4Swipe .right span{
+    width: 30px;
+    height: 30px;
+    border: #DC7000;
+    padding: 20px;
+    background: #1C140F;
+    border: 1px solid #DC7000;
+    border-radius: 50%;
+    color: #DC7000;
+    font-weight: 600;
+}
+.content4Swipe .right span:last-child{
+    color: #fff;
+    background: #DC7000;
+}
+.content5{
+    margin-bottom: 120px;
+}
+
+.content5Text{
+    margin-left: 12%;
+    width: 550px;
+    margin-bottom: 60px;
+    /* border: 1px solid red; */
+}
+
+.content5 .block{
+    margin: 0 12%;
+    background: #1B1B1B; 
+    border-radius: 15px;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: row;
+}
+
+.content5 .blockText{
+    margin-bottom: 30px;
+    margin-left: 34px;
+
+}
+
+.blockText p{
+    width: 500px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    gap: 140px;
+}
+
+.footer .textLogo{
+    width: 350px;
+}
+
+.contact{
+    width: 28   0px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.finish p{
+    border-top: 1px solid #bfbfbf;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
