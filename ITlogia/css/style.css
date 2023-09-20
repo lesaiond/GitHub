@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face{
+    font-family: "Gilroy";
+    src: url("../Gilroy-Semibold.ttf");
+}
+
+@font-face {
+    font-family:"Merriweather-Black" ;
+    src: url("../Merriweather-Black.ttf");
+}
+
+body{
+    background: #191411;
+    font-family: 'Gilroy' , sans-serif;
+    color: #fff;
+    font-weight: 600; 
+}
+
+section{
+    padding-left: 100px;
+    padding-bottom: 99px;
+}
+
+
+header{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 156px;
+}
+
+header nav ul{
+    gap: 88px;
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.mainScreen{
+    overflow: hidden;
+    background-image: url("../img/Group\ 2.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.currency{
+    padding: 10px 15px;
+    border-radius: 5px; 
+    border: 3px solid #fff;
+}
+
+.main span{
+    border-radius: 100px;
+    background: var(--d-3320-f, #D3320F);
+    padding: 12px 16px; 
+}
+
+.mainInfo{
+    max-width: 500px;
+}
+
+h1{
+    font-family: Merriweather; 
+    font-weight: 900;
+    line-height: 130%;
+    font-size: 120px; 
+    letter-spacing: 3.6px;
+    text-transform: uppercase; 
+    margin-bottom: 56px;
+}
+
+.main p{
+    margin-bottom: 56px;
+
+}
+
+.mainButton button{
+    border: none;
+    font-weight: 600;
+    border-radius: 8px;
+    background: red;
+    padding: 19px 50px; 
+    background: linear-gradient(96deg, #DA8023 0%, #E2B438 100%);
+    transition: 0.3s;
+}
+
+.mainButton button:hover{
+    background: linear-gradient(96deg, #ac6115 0%, #9e7a19 100%);
+    
+}
+
+.main .container{
+    position: relative;
+}
+
+.mainImage{
+    position: absolute;
+    top: -150px;
+    left: calc(100% - 1201px);
+}
